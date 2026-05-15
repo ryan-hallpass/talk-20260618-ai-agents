@@ -4,10 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Spain Digital Nomad Visa Strategy — Meeting Recap</title>
+<link rel="icon" type="image/jpeg" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGf/8AAF//Z">
 <style>
 :root {
-  --cream: #FFFCE8;
-  --ink: #000000;
+  --cream: #F7EEE7;
+  --ink: #1A1A1A;
   --ink-soft: #333333;
   --sage: #CC5033;
   --sage-light: #E8A090;
@@ -56,7 +57,7 @@ body {
   background: var(--sage-wash);
 }
 .cover-hero {
-  background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 100%), var(--sage);
+  background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 100%), #0F0F0F;
   color: var(--cream);
   text-align: center;
 }
@@ -66,6 +67,16 @@ body {
   max-width: 900px;
   margin: 0 auto;
   width: 100%;
+}
+.cover-hero .slide__inner > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+.cover-hero .display {
+  margin-bottom: 12px;
+}
+.cover-hero p {
+  max-width: 720px;
 }
 .eyebrow {
   font-family: var(--sans);
@@ -202,6 +213,12 @@ ul.clean li::before {
   opacity: 0.45;
   z-index: 2;
 }
+.cover-logo {
+  max-width: 160px;
+  margin: 0 auto 28px;
+  display: block;
+  filter: invert(1);
+}
 [data-reveal] {
   opacity: 0;
   transform: translateY(24px);
@@ -219,12 +236,17 @@ ul.clean li::before {
   opacity: 1;
   transform: translateY(0);
 }
+.nowrap {
+  white-space: nowrap;
+}
 @media (max-width: 700px) {
   .slide { padding: 56px 28px 64px; min-height: auto; }
   .cover-hero { min-height: 100vh; }
   .card-grid, .metric-strip { grid-template-columns: 1fr; }
   .display { font-size: 34px; }
   .display-sm { font-size: 26px; }
+  .cover-logo { max-width: 120px; }
+  .footer-bar { flex-direction: column; gap: 8px; text-align: center; }
 }
 </style>
 </head>
@@ -233,9 +255,10 @@ ul.clean li::before {
 <!-- Slide 1: Cover -->
 <section class="slide cover-hero">
   <div class="slide__inner">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGf/8AAF//Z" alt="HallPass Digital" class="cover-logo" data-reveal>
     <p class="eyebrow" data-reveal>May 14, 2026</p>
     <h1 class="display" data-reveal>Spain Digital Nomad Visa<br><em>Strategy & Next Steps</em></h1>
-    <p data-reveal data-delay="1">A conversation with an immigration consultant on the best path forward for a U.S.-based business owner moving to Madrid with family.</p>
+    <p data-reveal data-delay="1">A conversation with an immigration consultant on the best path forward for a <span class="nowrap">U.S.-based</span> business owner moving to Madrid with family.</p>
   </div>
   <div class="footer-bar">
     <span>Prepared by Ryan McNeill / Anecdotal</span>
@@ -299,7 +322,7 @@ ul.clean li::before {
         <div class="metric__label">Current monthly salary<br>dividends can supplement</div>
       </div>
     </div>
-    <p data-reveal data-delay="4" style="margin-top: 28px; max-width: 640px;">
+    <p data-reveal data-delay="4" style="max-width: 640px; margin-left:auto; margin-right:auto;">
       Recommendation: increase salary draw for the next three months before applying. Bank statements must be stamped by the bank. Dividend transfers without memos are acceptable.
     </p>
   </div>
@@ -346,14 +369,14 @@ ul.clean li::before {
   <div class="slide__inner">
     <p class="eyebrow" data-reveal>Timeline & Next Steps</p>
     <h2 class="display-sm" data-reveal>What to do <em>next</em></h2>
-    <ul class="clean" style="max-width: 640px; margin-top: 20px;">
+    <ul class="clean" style="max-width: 640px; margin: 20px auto 0;">
       <li data-reveal data-delay="1"><strong>Immediately</strong> — contact U.S. Social Security to request the certificate of coverage.</li>
       <li data-reveal data-delay="2"><strong>This month</strong> — increase payroll salary to comfortably clear the €40K/year threshold.</li>
       <li data-reveal data-delay="3"><strong>August</strong> — gather diploma apostille + translation; confirm bank stamping process.</li>
       <li data-reveal data-delay="4"><strong>Late July</strong> — arrive in Madrid; begin online application within days of arrival.</li>
       <li data-reveal data-delay="5"><strong>After approval</strong> — fingerprint appointment; receive TIE card within ~1 month.</li>
     </ul>
-    <p data-reveal data-delay="6" style="margin-top: 28px;">The consultant offers a full-service package (document review, submission, translation help, post-approval support) with fee refund if the visa is rejected. Tax advisor referral available for Spanish tax planning.</p>
+    <p data-reveal data-delay="6" style="max-width: 640px; margin-left:auto; margin-right:auto; margin-top: 28px;">The consultant offers a full-service package (document review, submission, translation help, post-approval support) with fee refund if the visa is rejected. Tax advisor referral available for Spanish tax planning.</p>
   </div>
   <div class="footer-bar">
     <span>Prepared by Ryan McNeill / Anecdotal</span>
@@ -365,7 +388,7 @@ ul.clean li::before {
   <div class="slide__inner">
     <p class="eyebrow" data-reveal>Thanks for reviewing</p>
     <h2 class="display-sm" data-reveal>Questions or next steps? <em>Reach out.</em></h2>
-    <p data-reveal data-delay="1" style="opacity: 0.75; margin: 0 auto; max-width: 480px;">This recap was generated automatically from Granola meeting notes by Felix — an AI agent that turns conversations into action.</p>
+    <p data-reveal data-delay="1" style="opacity: 0.75; max-width: 480px;">This recap was generated automatically from Granola meeting notes by Felix — an AI agent that turns conversations into action.</p>
     <p data-reveal data-delay="2" style="margin-top: 24px;"><a href="mailto:ryan.m@anecdotal.media" style="display: inline-block; padding: 12px 28px; border: 1px solid var(--sage-light); color: var(--cream); text-decoration: none; border-radius: 6px; font-size: 13px; opacity: 0.9;">Contact Ryan McNeill</a></p>
   </div>
 </section>
