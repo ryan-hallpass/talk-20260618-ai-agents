@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Spain Digital Nomad Visa Strategy — Meeting Recap</title>
-<link rel="icon" type="image/jpeg" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGf/8AAF//Z">
 <style>
 :root {
   --cream: #F7EEE7;
@@ -219,6 +218,17 @@ ul.clean li::before {
   display: block;
   filter: invert(1);
 }
+.tool-link {
+  color: var(--sage);
+  text-decoration: none;
+  border-bottom: 1px solid var(--sage);
+  padding-bottom: 1px;
+  opacity: 0.85;
+}
+.slide--dark .tool-link {
+  color: var(--sage-light);
+  border-bottom-color: var(--sage-light);
+}
 [data-reveal] {
   opacity: 0;
   transform: translateY(24px);
@@ -236,9 +246,7 @@ ul.clean li::before {
   opacity: 1;
   transform: translateY(0);
 }
-.nowrap {
-  white-space: nowrap;
-}
+.nowrap { white-space: nowrap; }
 @media (max-width: 700px) {
   .slide { padding: 56px 28px 64px; min-height: auto; }
   .cover-hero { min-height: 100vh; }
@@ -255,7 +263,6 @@ ul.clean li::before {
 <!-- Slide 1: Cover -->
 <section class="slide cover-hero">
   <div class="slide__inner">
-    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGf/8AAF//Z" alt="HallPass Digital" class="cover-logo" data-reveal>
     <p class="eyebrow" data-reveal>May 14, 2026</p>
     <h1 class="display" data-reveal>Spain Digital Nomad Visa<br><em>Strategy & Next Steps</em></h1>
     <p data-reveal data-delay="1">A conversation with an immigration consultant on the best path forward for a <span class="nowrap">U.S.-based</span> business owner moving to Madrid with family.</p>
@@ -322,9 +329,7 @@ ul.clean li::before {
         <div class="metric__label">Current monthly salary<br>dividends can supplement</div>
       </div>
     </div>
-    <p data-reveal data-delay="4" style="max-width: 640px; margin-left:auto; margin-right:auto;">
-      Recommendation: increase salary draw for the next three months before applying. Bank statements must be stamped by the bank. Dividend transfers without memos are acceptable.
-    </p>
+    <p data-reveal data-delay="4" style="max-width: 640px; margin-left:auto; margin-right:auto;">Recommendation: increase salary draw for the next three months before applying. Bank statements must be stamped by the bank. Dividend transfers without memos are acceptable.</p>
   </div>
   <div class="footer-bar" style="opacity: 0.35; color: var(--cream);">
     <span>Prepared by Ryan McNeill / Anecdotal</span>
@@ -383,7 +388,36 @@ ul.clean li::before {
   </div>
 </section>
 
-<!-- Slide 6: CTA -->
+<!-- Slide 6: Tools & Resources -->
+<section class="slide slide--dark">
+  <div class="slide__inner">
+    <p class="eyebrow" data-reveal>Tools Mentioned Today</p>
+    <h2 class="display-sm" data-reveal>Apps & resources <em>worth trying</em></h2>
+    <div class="card-grid" style="margin-top: 36px;">
+      <div class="card" data-reveal data-delay="1">
+        <div class="card__title"><a href="https://join.granola.ai/t/fwrkf9xd6n" target="_blank" class="tool-link">Granola</a></div>
+        <div class="card__body">AI meeting notes from your laptop’s microphone. Structurally precise, not verbatim word salad.</div>
+      </div>
+      <div class="card" data-reveal data-delay="2">
+        <div class="card__title"><a href="https://wisprflow.ai/r?RYAN443" target="_blank" class="tool-link">WisprFlow</a></div>
+        <div class="card__body">Voice-to-text for fast emails, messages, and dictation without typing.</div>
+      </div>
+      <div class="card" data-reveal data-delay="3">
+        <div class="card__title"><a href="https://claude.ai" target="_blank" class="tool-link">Claude</a></div>
+        <div class="card__body">Anthropic’s AI assistant. Great for reasoning, writing, and building without coding.</div>
+      </div>
+      <div class="card" data-reveal data-delay="4">
+        <div class="card__title"><a href="https://notebooklm.google.com" target="_blank" class="tool-link">NotebookLM</a></div>
+        <div class="card__body">Google’s research assistant. Feed it documents and get grounded summaries, podcasts, and Q&A.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bar" style="opacity: 0.35; color: var(--cream);">
+    <span>Prepared by Ryan McNeill / Anecdotal</span>
+  </div>
+</section>
+
+<!-- Slide 7: CTA -->
 <section class="slide cover-hero">
   <div class="slide__inner">
     <p class="eyebrow" data-reveal>Thanks for reviewing</p>
